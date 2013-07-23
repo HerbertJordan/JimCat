@@ -1,0 +1,7 @@
+
+# a directory where jimcat has full write permissions and also
+# may delete files so please DON'T specify something like C:/ :)
+testdirectory = c:/temp/
+
+# a directory where some images should be laying around
+importdirectory = c:/images/

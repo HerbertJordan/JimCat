@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- JNLP File for JimCat --> 
+<jnlp 
+  spec="1.0+" 
+  codebase="http://jimcat.org/build" 
+  href="jimcat.jnlp"> 
+  <information> 
+    <title>JimCat (development build)</title> 
+    <vendor>jimcat.org</vendor> 
+    <description>JimCat Photo Manager</description>  
+    <icon kind="splash" href="splashscreen.png"/> 
+    <offline-allowed/> 
+  </information>  
+  <security>
+   <all-permissions /> 
+  </security>
+  <resources> 
+    <j2se version="1.5+" java-vm-args="-Xmx256M"/> 
+    <jar href="jimcat.jar"/>
+    <jar href="substance.jar" />
+	<jar href="swingx-2006_10_27.jar" />
+	<jar href="commons-lang-2.3.jar" />
+	<jar href="joda-time-1.4.jar" />
+	<jar href="xstream-1.2.1.jar" />
+	<jar href="xpp3_min-1.1.3.4.O.jar" />
+	<jar href="commons-io-1.3.1.jar" />
+	<jar href="metadata-extractor-2.3.1.jar" />
+	<jar href="log4j-1.2.11.jar" />
+	<jar href="dom4j-1.6.1.jar" />
+	<jar href="commons-logging-1.0.4.jar" />
+	<jar href="commons-collections-2.1.1.jar" />
+	<jar href="cglib-2.1.3.jar" />
+	<jar href="db4o-6.1-java5.jar" />
+  </resources> 
+  <application-desc main-class="org.jimcat.JimCat"/> 
+</jnlp>
